@@ -39,21 +39,21 @@ public class Invoice {
         return this.subTotal;
     }
     public void setSubTotal(double subTotal) {
-        this.subTotal = subTotal;
+        this.subTotal += subTotal;
     }
 
     public double getVat() {
         return vat;
     }
     public void setVat(double vat) {
-        this.vat = vat;
+        this.vat += vat;
     }
 
     public double getTotal() {
         return total;
     }
     public void setTotal(double total) {
-        this.total = total;
+        this.total += total;
     }
 
 }

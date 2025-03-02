@@ -29,21 +29,21 @@ public class Order {
         return this.subTotal;
     }
     public void setSubtTotal(double subTotal) {
-        this.subTotal = subTotal;
+        this.subTotal += subTotal;
     }
 
     public double getVat() {
         return this.vat;
     }
     public void setVat(double vat) {
-        this.vat = vat;
+        this.vat += vat;
     }
 
     public double getTotal() {
         return this.total;
     }
     public void setTotal(double total) {
-        this.total = total;
+        this.total += total;
     }
 
     public List<Invoice> getInvoices() {
